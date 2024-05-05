@@ -1,0 +1,95 @@
+@import url("https://use.typekit.net/qlq7wsa.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Amandine', bold, sans-serif;
+}
+.pr-12{
+  color:#d7d3e8;
+}
+
+.banner-1 {
+  @apply px-5  pt-5 md:pt-10 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+  background-color: #d7d3e8;
+}
+
+.banner-2 {
+  @apply px-5  pt-5 md:pt-10 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+  background-color: #d7d3e8;
+}
+
+.banner-3 {
+  @apply px-5  pt-5 md:pt-10 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+  background-color: #d7d3e8;
+}
+
+.bg-yellowis {
+  background-color: #d7d3e8;
+}
+.hello-button {
+  background-color: #4b3838;
+}
+.menu-button {
+  @apply 2xl:text-2xl xl:text-xl lg:text-xl md:text-xl;
+  color: #4b3838;
+}
+
+.heading3 {
+  color: #4b3838;
+  @apply md:text-5xl text-xl font-bold tracking-wide;
+}
+
+.project-title {
+  @apply text-3xl md:text-4xl tracking-wide font-bold;
+  color: #d7d3e8;
+}
+
+.card {
+  @apply md:flex place-items-center my-20 shadow-md;
+  background-color: #4b3838;
+}
+.card-image {
+  @apply md:w-1/2 flex;
+}
+
+/* @layer utilities {
+  .h-850 {
+    height: 900px;
+  }
+} */
+.social{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto 0px auto;
+}
+
+.social img{
+  width: 50px;
+  height: 50px;
+}
+small{
+  display: flex;
+  align-items: flex-end;
+  color: black;
+}
+span{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+span:hover{
+  opacity: 65%;
+}
+
+html {
+  font-family: sans-serif;
+}
+a {
+  display: inline-block;
+  background: #69c;
+  color: #fff;
+  padding: 5px 10px;
+}
